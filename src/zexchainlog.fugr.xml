@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Logging</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZEXCHAINLOGTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZEXCHAINLOG</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZEXCHAINLOG</FUNCNAME>
+     <SHORT_TEXT>Log Exception</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>LOGTABLE</PARAMETER>
+       <TYP>ZEXCHAINLOG_T</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>COMMIT</PARAMETER>
+       <DEFAULT>&apos;X&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>XFELD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>LOGTABLE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Log Table</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>COMMIT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Checkbox</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

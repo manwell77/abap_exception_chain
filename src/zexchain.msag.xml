@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZEXCHAIN</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEXCHAIN</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>unknown error</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEXCHAIN</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>document &amp;1 not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEXCHAIN</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>table &amp;1 doesn&apos;t exist</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
